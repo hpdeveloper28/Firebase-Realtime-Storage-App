@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">FirebaseStorage</string>
+    <string name="add">Add</string>
+    <string name="your_name">Your name</string>
+    <string name="your_location">Your location</string>
+    <string name="update">Update</string>
+    <string name="delete">Delete</string>
+</resources>
