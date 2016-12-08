@@ -9,6 +9,7 @@ import java.util.List;
 public class Person {
     public String Name;
     public String Location;
+    public String File;
     public List<Education> InnerList;
 
 }

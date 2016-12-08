@@ -5,4 +5,6 @@
     <string name="your_location">Your location</string>
     <string name="update">Update</string>
     <string name="delete">Delete</string>
+    <string name="download">Download</string>
+    <string name="upload">Upload</string>
 </resources>

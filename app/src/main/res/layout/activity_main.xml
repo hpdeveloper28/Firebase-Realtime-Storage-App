@@ -34,37 +34,63 @@
         android:layout_height="wrap_content"
         android:layout_below="@+id/editTextLocation"
         android:orientation="horizontal"
-        android:weightSum="3">
+        android:weightSum="5">
 
 
-        <Button
+        <TextView
             android:id="@+id/btnAdd"
-            android:layout_width="0dp"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_margin="10dp"
             android:layout_weight="1"
+            android:gravity="center"
+            android:padding="5dp"
             android:text="@string/add"
             android:textColor="@android:color/black"
-            tools:layout_editor_absoluteX="10dp"
-            tools:layout_editor_absoluteY="135dp" />
+            android:textSize="12sp" />
 
-        <Button
+        <TextView
             android:id="@+id/btnUpdate"
-            android:layout_width="0dp"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_margin="10dp"
             android:layout_weight="1"
+            android:gravity="center"
+            android:padding="5dp"
             android:text="@string/update"
-            android:textColor="@android:color/black" />
+            android:textColor="@android:color/black"
+            android:textSize="12sp" />
 
-        <Button
+        <TextView
             android:id="@+id/btnDelete"
-            android:layout_width="0dp"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_margin="10dp"
             android:layout_weight="1"
+            android:gravity="center"
+            android:padding="5dp"
             android:text="@string/delete"
-            android:textColor="@android:color/black" />
+            android:textColor="@android:color/black"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/btnUploadFile"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:padding="5dp"
+            android:text="@string/upload"
+            android:textColor="@android:color/black"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/btnDownloadFile"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:padding="5dp"
+            android:text="@string/download"
+            android:textColor="@android:color/black"
+            android:textSize="12sp" />
     </LinearLayout>
 
 
@@ -76,6 +102,12 @@
         android:layout_margin="10dp">
 
     </ListView>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_below="@+id/listView"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageDownload"/>
 
 
 </RelativeLayout>
